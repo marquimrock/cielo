@@ -162,7 +162,7 @@ Um exemplo rápido e simples, que abre as portas para aplicações mais complexa
             <div class="row">
               <div class="col-md-3 mb-3">
                 <label for="cc-expiration">Expiration</label>
-                <input type="text" class="form-control" name="cc-expiration" id="cc-expiration" placeholder="" onkeypress="mascaraData(this)" maxlength="5" required>
+                <input type="text" class="form-control" name="cc-expiration" id="cc-expiration" placeholder="" onkeypress="mascaraData(this)" maxlength="7" required>
                 <div class="invalid-feedback">
                   Expiration date required
                 </div>

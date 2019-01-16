@@ -38,15 +38,7 @@
                 return index;
           }
     }
-        function mascaraTelefone(telefone) {
-        if (telefone.value.length == 0)
-            telefone.value = '(' + telefone.value;
-        if (telefone.value.length == 3)
-            telefone.value = telefone.value + ') ';
-        if (telefone.value.length == 10)
-            telefone.value = telefone.value + '-';
 
-    }
 
     function mascaraData(expiration) {
         if (expiration.value.length == 2)
@@ -61,23 +53,5 @@
         if (card.value.length == 14)
             card.value = card.value + ' ';
     }
-    function mascaraCnpj(cnpj) {
-        if (cnpj.value.length == 2)
-            cnpj.value = cnpj.value + '.';
-        if (cnpj.value.length == 6)
-            cnpj.value = cnpj.value + '.';
-        if (cnpj.value.length == 10)
-            cnpj.value = cnpj.value + '/';
-        if (cnpj.value.length == 15)
-            cnpj.value = cnpj.value + '-';
-    }
     
-    function maiuscula(z){
-        v = z.value.toUpperCase();
-        z.value = v;
-    }
-    function minuscula(z){
-        v = z.value.toLowerCase();
-        z.value = v;
-    }
     </script>
